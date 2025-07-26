@@ -14,6 +14,7 @@ A high-performance browser-based file conversion platform.
 npm install
 
 npm run dev
+# Starts both the Express API and the Vite dev server
 
 npm run build
 ```
