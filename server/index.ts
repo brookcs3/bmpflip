@@ -2,6 +2,9 @@ import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 
+// When run via `npm run dev`, this file boots Express, registers routes,
+// then launches Vite in middleware mode so the API and client share port 5000.
+
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
