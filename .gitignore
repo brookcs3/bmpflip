@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+
+# OS artifacts
+.DS_Store
+Icon?
+nohup.out
