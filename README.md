@@ -1,3 +1,4 @@
+# Bmpflip
 
 A high-performance browser-based file conversion platform.
 
@@ -24,3 +25,5 @@ This project is configured for deployment on Cloudflare Pages.
 
 Build command: `npm run build`
 Build output directory: `dist/public`
+
+The repository has been renamed to **bmpflip-app**.
